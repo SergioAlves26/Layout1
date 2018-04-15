@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'amelia_roundedblack';
+    src: url('tipotype_-_amelia-rounded-black-webfont.woff2') format('woff2'),
+         url('tipotype_-_amelia-rounded-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amelia-rounded-regularbold';
+    src: url('tipotype_-_ameliarounded-bold-webfont.woff2') format('woff2'),
+         url('tipotype_-_ameliarounded-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amelia-rounded-regularregular';
+    src: url('tipotype_-_amelia-rounded-regular-webfont.woff2') format('woff2'),
+         url('tipotype_-_amelia-rounded-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+        font-family: 'amelia_roundedblack';
+        font-size: 50pt;
+        color: #FD1A65;
+}
+
+h2{
+        font-family: 'amelia-rounded-regularbold';
+        font-size: 22px;
+        line-height: 1.3; 
+}
+
+h3{
+        font-family: 'amelia-rounded-regularregular';
+        font-size: 17px;
+        color: darkcyan; 
+}
+
+p{
+        font-family: 'amelia-rounded-regularregular';
+        font-size: 13px;
+        line-height: 1.5;
+}
+
+.titulo{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.subtitulo{
+        color: #FD1A62;
+        font-size: 15px;
+}
+
+.titulo2{
+    background-color: #4C0B5F;
+    color: azure;
+    padding: 60px 0 15px 0;
+}
+
+.header{
+    background-color: #2A0A29;
+    color: #FFFF;
+    padding: 25px 0 25px 0;
+}
+
+.quadro{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+article {
+    color: darkslategrey;
+    margin: 2px;
+    padding: 30px;
+    border: solid 1px grey;
+}
+
+texto_grelha{
+    padding: 25px;
+}
+
